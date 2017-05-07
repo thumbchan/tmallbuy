@@ -1,0 +1,44 @@
+*{
+	margin: 0;padding: 0;list-style: none;
+}
+.banner{
+	width: 100%;height: 200px;
+	background: url(../img/banner.jpg)no-repeat;
+}
+.par_list{
+	width: 990px;height: 310px;margin: 40px auto 0;
+}
+.par_list ul li{
+	width: 220px;height: 300px;border:1px solid #ccc;float: left;margin-right: 14px;padding: 5px;
+}
+.par_list ul li p .title{
+	font-size: 12px;color:#666 ;line-height: 40px;
+}
+.par_list ul li p.prise{color: red;}
+.par_list ul li p.prise span{
+	float: right;width: 80px;height: 30px;background: red;text-align: center;border-radius: 3px;
+	color: #fff;line-height: 30px;font-size: 12px;cursor: pointer;
+}
+.carbox{
+	width: 260px;height: 100%;position: absolute;top: 0;right: 0;
+}
+.carbox .left{
+	width:40px ;height: 100%;background: #aaa;float: left;position: relative;
+}
+.carbox .con{
+	width:220px ;height: 100%;background: #eee;float: left;
+}
+.carbox .left span{
+	display: block;background: red;position: absolute;
+	padding:10px 14px ;top: 50%;margin-top: -45px;
+	color: #fff;font-size: 12px;width: 12px;
+}
+.carbox .con dl{
+	width: 220px;height: 60px;
+}
+.carbox .con dl dt img{
+	width: 60px;height: 60px;
+}
+.carbox .con dl dt dd{
+	float: left;
+}
